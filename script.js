@@ -6,7 +6,7 @@ let notesCounter = document.querySelector('.header__counter');
 
 
 function updateNotesCounter() {
-    notesCounter.innerText = `Notes amount: ${mainContainer.childElementCount}`;
+    notesCounter.innerText = `NOTES AMOUNT: ${mainContainer.childElementCount}`;
 }
 
 

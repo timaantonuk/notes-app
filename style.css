@@ -82,6 +82,7 @@
 
 .header__counter {
     margin-bottom: 20px;
+    font-weight: 600;
     font-size: 2rem;
     color: rgba(37, 16, 82, 0.71);
 
@@ -96,8 +97,8 @@
 }
 
 .main__note {
-    max-width: 400px;
-    width: 100%;
+
+    width: 400px;
     position: relative;
     min-height: 10rem;
     background: var(--heading-color);
@@ -125,10 +126,32 @@
 
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     .header__heading {
-        font-size: 2.7rem;
+        font-size: 8rem;
+    }
+
+    .header__logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .header__counter {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+
+    .header__btn {
+        width: 600px;
+        padding-block: 3rem;
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+
+    .header__btn img {
+        width: 70px;
+        height: 70px;
     }
 
     .main__container {
@@ -136,7 +159,12 @@
     }
 
     .main__note {
-        width: 300px;
+        width: 680px;
+        font-size: 3rem;
+    }
+
+    .main__note img {
+        width: 60px;
     }
 
 
