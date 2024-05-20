@@ -1,5 +1,7 @@
 # Notes App
 
+![Xnip2024-05-20_12-19-27](https://github.com/timaantonuk/notes-app/assets/111820939/bd9049be-0e78-452a-824b-f3030c1e421f)
+
 Create, update, and save your notes inside the browser!
 
 ## Tech Stack
@@ -18,3 +20,4 @@ The Notes App allows you to create, edit, and delete notes directly in your brow
 
 ## Usage
 You can access the app [here](https://timaantonuk.github.io/notes-app/).
+
