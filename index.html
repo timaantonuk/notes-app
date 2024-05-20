@@ -1,48 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
     <title>Notes App</title>
-
     <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./images/notes.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
 
-</head>
-<body>
+  <header class="app-header">
+    <img src="./images/logo.png" alt="Notes app logo" class="logo">
+    <h1 class="heading">NOTES APP</h1>
+    <button type="button" class="theme-switcher"><img class="theme-switcher-img" src="./images/moon.png" alt="theme switcher"></button>
+  </header>
 
-    <div class="container">
 
-    <header class="header">
+    <div class="popup-box">
 
-    <div class="header__container">
+      <div class="popup">
+        <div class="content">
 
-            <div class="header__wrapper">
-                <img class="header__logo" src="./images/notes.png" alt="Notes app logo" width="90" height="90">
-                <h1 class="header__heading">Notes App</h1>
+          <header class="modal">
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+
+          <form action="#">
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" spellcheck="false">
             </div>
-
-            <p class="header__counter"></p>
-
-            <button class="header__btn" type="button">
-                <img src="./images/edit.png" alt="Create note" width="40" height="40">
-                Create your note
-            </button>
-    </div>
-
-
-    </header>
-
-    <main class="main">
-        <div class="main__container">
+            <div class="row description">
+              <label>Description</label>
+              <textarea spellcheck="false"></textarea>
+            </div>
+            <button></button>
+          </form>
 
         </div>
-    </main>
+      </div>
 
     </div>
 
-    <script src="./script.js"></script>
-</body>
+    <div class="wrapper">
+
+      <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Add new note</p>
+      </li>
+
+    </div>
+
+    <script src="./script.js" defer></script>
+    
+  </body>
 </html>
